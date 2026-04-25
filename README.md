@@ -103,7 +103,7 @@ The raw data came from CBK annual reports and FinAccess survey publications as E
 
 ### Phase 2 — Exploratory Data Analysis (Python)
 
-The EDA script (`02_eda.py`) generates 11 charts answering the core project questions:
+The EDA script (`02_eda.py`) generates 8 charts answering the core project questions:
 
 1. M-Pesa transaction value growth 2015–2024 (bar + line, dual axis)
 2. Monthly transaction volume heatmap — seasonal patterns by year and month
