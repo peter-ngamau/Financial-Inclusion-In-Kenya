@@ -109,13 +109,10 @@ The EDA script (`02_eda.py`) generates 11 charts answering the core project ques
 2. Monthly transaction volume heatmap — seasonal patterns by year and month
 3. Top 10 most excluded counties (horizontal bar, colour-coded by region)
 4. Financial inclusion evolution 2006–2024 (stacked area across 7 survey waves)
-5. Agent density vs inclusion rate by county (scatter plot with regression line)
-6. Financial exclusion by demographic segment (grouped bar with national average line)
-7. Urban vs rural inclusion gap by region (clustered bar)
-8. Mobile money as % of GDP over time (dual-axis line)
-9. Registered vs active account utilisation 2015–2024
-10. County inclusion distribution by region (box + strip plot)
-11. Correlation matrix of county-level variables
+5. Agent density vs inclusion rate by county (scatter plot)
+6. Mobile money as % of GDP over time (dual-axis line)
+7. County inclusion distribution by region (box)
+8. Correlation matrix of county-level variables
 
 ### Phase 3 — SQL Server Data Warehouse
 
