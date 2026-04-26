@@ -97,9 +97,8 @@ The raw data came from CBK annual reports and FinAccess survey publications as E
 - Validates that all 47 counties are present and correctly spelled
 - Checks that percentage columns are in the 0–1 decimal range, not 0–100
 - Removes duplicate rows
-- Adds derived columns such as `period` (YYYY-MM), `quarter`, `exclusion_tier`, and `urban_rural_gap_pct`
 - Adds a `relative_exclusion_index` to the demographics file — showing how many times worse each demographic segment is compared to the national average
-- Outputs a cleaning report to `data/clean/cleaning_report.txt` documenting every check and fix
+- Outputs a cleaning report to `data/clean data/cleaning_report.txt` documenting every check and fix
 
 ### Phase 2 — Exploratory Data Analysis (Python)
 
@@ -138,13 +137,13 @@ The Python script (`03_load_sql.py`) connects to SQL Server using SQLAlchemy and
 The Power BI report connects directly to SQL Server and contains 4 pages:
 
 **Page 1 — National Overview**
-Four KPI cards (total transaction value, active agents, national inclusion rate, excluded population), a bar chart showing annual transaction value growth, a line chart of registered vs active accounts, a donut chart showing included vs excluded split, and a table of the top 10 most excluded counties.
+Four KPI cards (total transaction value, active agents, national inclusion rate, excluded population), a bar chart showing annual transaction value growth, a line chart of registered vs active accounts, a donut chart showing included vs excluded split, and a table of the top 5 most excluded counties.
 
 **Page 2 — County Map**
 A filled map of all 47 Kenyan counties coloured by inclusion tier, a scatter plot showing agent density vs inclusion rate with region colour coding and population as bubble size, a region slicer that filters all visuals simultaneously, and a full county data table with conditional formatting on agent density tier.
 
 **Page 3 — Transaction Trends**
-A full-width monthly line chart with a year range slicer, annual transaction value bars with YoY growth line, a quarterly volume matrix showing seasonal patterns, and a clustered bar chart comparing registered vs active accounts with a utilisation rate line.
+A full-width monthly line chart with a year range slicer, a quarterly volume matrix showing seasonal patterns, and a clustered bar chart comparing registered vs active accounts with a utilisation rate line.
 
 **Page 4 — Demographics**
 A horizontal bar chart of exclusion rates for all 20 demographic segments with a national average reference line, a 100% stacked bar showing inclusion vs exclusion by category, a segment detail table with colour-coded relative exclusion index, and a category slicer that filters all visuals by Gender, Age, Location, Income, Education or PWD.
@@ -179,7 +178,7 @@ You also need:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/financial-inclusion-kenya.git
+git clone https://github.com/peter-ngamau/financial-inclusion-in-kenya.git
 cd financial-inclusion-kenya
 
 # 2. Run the cleaning script
