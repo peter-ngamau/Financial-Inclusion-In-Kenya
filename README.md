@@ -45,11 +45,9 @@ Financial_Inclusion_Kenya/
 │
 ├── Scripts/
 │   ├── 01_clean.py                   # Data cleaning pipeline
-│   ├── 02_eda.py                     # Exploratory data analysis + 11 charts
+│   ├── 02_eda.py                     # Exploratory data analysis + 8 charts
 │   ├── 03_load_sql.py                # Load data into SQL Server
 │   └── fix_failed_tables.py          # Targeted SQL load fix script
-│
-├── Charts/                           # 11 EDA charts exported as PNG
 │
 ├── SQL/
 │   └── create_tables.sql             # All CREATE TABLE statements (star schema)
@@ -152,7 +150,6 @@ A horizontal bar chart of exclusion rates for all 20 demographic segments with a
 
 ## Dashboard Preview
 
-> *Power BI report published at:* `[add your published link here]`
 
 | Page | Description |
 |------|-------------|
