@@ -1,0 +1,48 @@
+county_name,county_id,region,active_agents_2024,population_2024,agents_per_10k_pop,agents_per_1000_adults,settlement_type,agent_density_tier
+Mombasa,1,Coast,18200,1200000,15.17,27.58,Urban,High
+Kwale,2,Coast,4800,960000,5.0,9.09,Rural,Low
+Kilifi,3,Coast,7200,1453000,4.96,9.01,Rural,Low
+Tana River,4,Coast,1700,315000,5.4,9.81,Rural,Low
+Lamu,5,Coast,1600,143000,11.19,20.34,Mixed,High
+Taita Taveta,6,Coast,2800,340000,8.24,14.97,Rural,Medium
+Garissa,7,North Eastern,5300,841000,6.3,11.46,Urban,Medium
+Wajir,8,North Eastern,2200,781000,2.82,5.12,Rural,Low
+Mandera,9,North Eastern,1900,867000,2.19,3.98,Rural,Low
+Marsabit,10,Eastern,2000,459000,4.36,7.92,Rural,Low
+Isiolo,11,Eastern,2100,268000,7.84,14.25,Rural,Medium
+Meru,12,Eastern,9200,1545000,5.95,10.83,Mixed,Low
+Tharaka Nithi,13,Eastern,3200,393000,8.14,14.8,Rural,Medium
+Embu,14,Eastern,5100,608000,8.39,15.25,Mixed,Medium
+Kitui,15,Eastern,5600,1136000,4.93,8.96,Rural,Low
+Machakos,16,Eastern,8900,1421000,6.26,11.39,Mixed,Medium
+Makueni,17,Eastern,5400,987000,5.47,9.95,Rural,Low
+Nyandarua,18,Central,4300,638000,6.74,12.25,Rural,Medium
+Nyeri,19,Central,5800,759000,7.64,13.89,Mixed,Medium
+Kirinyaga,20,Central,4500,610000,7.38,13.41,Rural,Medium
+Murang'a,21,Central,7800,1056000,7.39,13.43,Rural,Medium
+Kiambu,22,Central,24300,2417000,10.05,18.28,Peri-urban,High
+Turkana,23,Rift Valley,2600,926000,2.81,5.11,Rural,Low
+West Pokot,24,Rift Valley,2400,621000,3.86,7.03,Rural,Low
+Samburu,25,Rift Valley,1800,223000,8.07,14.68,Rural,Medium
+Trans Nzoia,26,Rift Valley,5600,990000,5.66,10.28,Rural,Low
+Uasin Gishu,27,Rift Valley,8100,1163000,6.96,12.66,Mixed,Medium
+Elgeyo Marakwet,28,Rift Valley,3100,454000,6.83,12.41,Rural,Medium
+Nandi,29,Rift Valley,5000,885000,5.65,10.27,Rural,Low
+Baringo,30,Rift Valley,4000,666000,6.01,10.92,Rural,Medium
+Laikipia,31,Rift Valley,4100,518000,7.92,14.39,Mixed,Medium
+Nakuru,32,Rift Valley,15800,2162000,7.31,13.29,Mixed,Medium
+Narok,33,Rift Valley,5800,1157000,5.01,9.11,Rural,Low
+Kajiado,34,Rift Valley,7100,1117000,6.36,11.56,Peri-urban,Medium
+Kericho,35,Rift Valley,5700,947000,6.02,10.94,Rural,Medium
+Bomet,36,Rift Valley,4800,876000,5.48,9.96,Rural,Low
+Kakamega,37,Western,11200,1867000,6.0,10.91,Rural,Medium
+Vihiga,38,Western,4600,590000,7.8,14.18,Rural,Medium
+Bungoma,39,Western,9800,1670000,5.87,10.67,Rural,Low
+Busia,40,Western,5100,893000,5.71,10.38,Rural,Low
+Siaya,41,Nyanza,5900,993000,5.94,10.8,Rural,Low
+Kisumu,42,Nyanza,10900,1155000,9.44,17.16,Urban,Medium
+Homa Bay,43,Nyanza,6800,1131000,6.01,10.93,Rural,Medium
+Migori,44,Nyanza,6400,1145000,5.59,10.16,Rural,Low
+Kisii,45,Nyanza,7600,1267000,6.0,10.91,Rural,Medium
+Nyamira,46,Nyanza,4200,605000,6.94,12.62,Rural,Medium
+Nairobi,47,Nairobi,62400,4397073,14.19,25.8,Urban,High

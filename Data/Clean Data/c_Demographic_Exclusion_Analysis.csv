@@ -1,0 +1,21 @@
+segment,category,formal_inclusion_pct,excluded_pct,mobile_money_pct,bank_account_pct,sacco_pct,est_population_m,excluded_count_m,primary_barrier,data_source
+Male,Gender,0.857,0.083,0.835,0.672,0.185,16.8,1.39,Low demand,FinAccess 2024
+Female,Gender,0.841,0.108,0.823,0.634,0.178,17.2,1.86,Lack of ID/phone,FinAccess 2024
+Youth 18-25,Age,0.7240000000000001,0.276,0.701,0.453,0.08199999999999999,5.8,1.6,No ID / no income,FinAccess 2024
+Adults 26-35,Age,0.892,0.108,0.8740000000000001,0.701,0.223,7.4,0.8,Low income,FinAccess 2024
+Adults 36-45,Age,0.885,0.115,0.8590000000000001,0.698,0.241,6.2,0.71,Documentation,FinAccess 2024
+Adults 46-55,Age,0.831,0.169,0.8029999999999999,0.625,0.197,4.8,0.81,Low literacy,FinAccess 2024
+Adults 56-65,Age,0.7559999999999999,0.244,0.72,0.551,0.142,3.1,0.76,Distance to agents,FinAccess 2024
+Elderly 65+,Age,0.623,0.377,0.585,0.4320000000000001,0.098,2.1,0.79,Distance/literacy,FinAccess 2024
+Urban,Location,0.9129999999999999,0.062,0.884,0.753,0.214,18.0,1.12,Low demand,FinAccess 2024
+Rural,Location,0.802,0.126,0.785,0.578,0.156,22.0,2.77,Distance to agents,FinAccess 2024
+Lowest quintile,Income,0.653,0.347,0.621,0.312,0.064,5.4,1.88,No income/phone,FinAccess 2024
+Second quintile,Income,0.794,0.206,0.768,0.489,0.121,4.8,0.99,Low income,FinAccess 2024
+Third quintile,Income,0.875,0.125,0.852,0.624,0.178,4.8,0.6,Documentation,FinAccess 2024
+Fourth quintile,Income,0.932,0.068,0.9109999999999999,0.745,0.232,4.5,0.31,Low demand,FinAccess 2024
+Highest quintile,Income,0.971,0.029,0.943,0.856,0.314,4.5,0.13,Near full inclusion,FinAccess 2024
+No education,Education,0.542,0.458,0.501,0.223,0.051,4.2,1.93,Literacy barrier,FinAccess 2024
+Primary,Education,0.7959999999999999,0.204,0.7709999999999999,0.514,0.132,11.8,2.41,Low income,FinAccess 2024
+Secondary,Education,0.903,0.09699999999999999,0.884,0.6890000000000001,0.214,11.2,1.09,Documentation,FinAccess 2024
+Tertiary,Education,0.978,0.022,0.956,0.882,0.345,6.8,0.15,Near full inclusion,FinAccess 2024
+Persons with disability,PWD,0.779,0.221,0.745,0.523,0.124,0.8,0.18,Access barriers,FinAccess 2024
